@@ -1,0 +1,77 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 3cm; width: 85%;     
+}
+
+.product {
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;   
+    transition: all 0.3s ease;
+    margin-left: 60px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product h2 {
+    font-size: 20px;    
+}
+
+.cart {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    position: fixed; top: 0; right: 0; 
+    text-align: center;          
+    height: 100vh; width: 15%;    
+}
+
+.cart h2 {
+    margin-top: 0.5cm;
+    font-size: 1.5rem;
+}
+
+.cart li {
+    margin-bottom: 1rem;
+}
+
+.cart p {
+    margin: 1rem 0;   /* 1rem 0 both the Total and the price at the same line*/
+    font-size: 1.2rem;
+}
+
+.product img {
+    width: 200px; /* Set a fixed width for all images within .product div */
+    height: 200px;
+    margin: 0 auto;/* Center the image horizontally using auto margins */    
+}
+
+body{
+    background-image: url(mercedes\ logo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    background-size: cover;    
+}
+
+.product.card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Adjust the padding to make the button smaller */
+    border-radius: 5px;
+    font-size: 0.9rem; /* Adjust the font size of the button text */
+    margin: auto;
+}
+  
+  .product.card button:hover {
+    background-color: #45a049;
+  }
+
+
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Website</title>
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Mercedes Shopping Website</h1>
+    </header>
+    <div class="row">  
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Engine Oil Filter.jpg" alt="Product 1">
+            <h2>Mercedes Engine Oil Filter</h2>
+            <p>$20.00</p>
+            <button onclick="addToCart('Mercedes Engine Oil Filter', 20)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Brake Pads Set.jpg" alt="Product 2">
+            <h2>Mercedes Brake Pads Set</h2>
+            <p>$45.00</p>
+            <button  onclick="addToCart('Mercedes Brake Pads Set', 45)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Air Filter.jpg" alt="Product 3">
+            <h2>Mercedes Air Filter</h2>
+            <p>$30.00</p>
+            <button onclick="addToCart('Mercedes Air Filter', 30)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Spark Plugs (Set of 4).jpg" alt="Product 4">
+            <h2>Mercedes Spark Plugs (Set of 4)</h2>
+            <p>$25.00</p>
+            <button onclick="addToCart('Mercedes Spark Plugs (Set of 4)', 25)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Cabin Air Filter.jpg" alt="Product 5">
+            <h2>Mercedes Cabin Air Filter</h2>
+            <p>$35.00</p>
+            <button onclick="addToCart('Mercedes Cabin Air Filter', 35)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Transmission Fluid.jpg" alt="Product 6">
+            <h2>Mercedes Transmission Fluid</h2>
+            <p>$50.00</p>
+            <button onclick="addToCart('Mercedes Transmission Fluid', 50)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Serpentine Belt.jpg" alt="Product 7">
+            <h2>Mercedes Serpentine Belt</h2>
+            <p>$15.00</p>
+            <button onclick="addToCart('Mercedes Serpentine Belt', 15)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Fuel Filter.jpg" alt="Product 8">
+            <h2>Mercedes Fuel Filter</h2>
+            <p>$18.00</p>
+            <button onclick="addToCart('Mercedes Fuel Filter', 18)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Ignition Coil.jpg" alt="Product 9">
+            <h2>Mercedes Ignition Coil</h2>
+            <p>$22.00</p>
+            <button onclick="addToCart('Mercedes Ignition Coil', 22)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Water Pump.jpg" alt="Product 10">
+            <h2>Mercedes Water Pump</h2>
+            <p>$40.00</p>
+            <button onclick="addToCart('Mercedes Water Pump', 40)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Thermostat.jpg" alt="Product 11">
+            <h2>Mercedes Thermostat</h2>
+            <p>$12.00</p>
+            <button onclick="addToCart('Mercedes Thermostat', 12)">Add to Cart</button>
+        </div>
+        
+        <div class="product card form-group col-md-4">
+            <img src="Mercedes parts/Mercedes Oxygen Sensor.jpg" alt="Product 12">
+            <h2>Mercedes Oxygen Sensor</h2>
+            <p>$28.00</p>
+            <button onclick="addToCart('Mercedes Oxygen Sensor', 28)">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h2>Shopping Cart</h2> <br>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
